@@ -41,9 +41,9 @@ export const SecureShieldProvider: React.FC<{ children: React.ReactNode }> = ({ 
         async function bootstrap() {
             try {
                 const sdk = await SecureShield.init({
-                    headerKey: import.meta.env.VITE_SS_HEADER_KEY || 'enc:v1:bf004452ea9f2170fa2f0d75:b0d33433ad98d9648c17bafe4a45cdde:07ff537a3441f0059e1134d902233f',
-                    encryptionKey: import.meta.env.VITE_SS_ENCRYPTION_KEY || 'U1MEOYmR2f9ZePypUKvFtCGC7xHuXcJKsukRKEeHjYQ=',
-                    initializationKey: import.meta.env.VITE_SS_INIT_KEY || 'INIT_aFari0C63RokQwrXdlOga1tclSzNewoK',
+                    headerKey: 'enc:v1:bf004452ea9f2170fa2f0d75:b0d33433ad98d9648c17bafe4a45cdde:07ff537a3441f0059e1134d902233f',
+                    encryptionKey: 'U1MEOYmR2f9ZePypUKvFtCGC7xHuXcJKsukRKEeHjYQ=',
+                    initializationKey: 'INIT_a_8UIOGY7TWrQ105vTM7E3AGjMWuaOwj',
                     tenantId: 'TEN-SAKSHI-8743',
                     appId: 'ast_web_181845',
                     serverUrl: 'https://radiator-waving-cahoots.ngrok-free.dev/api/v1/telemetry/ingest',
