@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/providers/secureshieldprovider.tsx","./src/secureshield-sdk/index.d.ts","./src/secureshield-sdk/secureshield.d.ts","./src/secureshield-sdk/secureshield.wasm.d.ts"],"version":"5.9.3"}
